@@ -1,5 +1,7 @@
+import CardItem from "@/app/cards/Carditem";
+
 const Card = ({ card }) => {
-  return <div>Card</div>;
+  return <CardItem card={card} />;
 };
 
 export const getStaticPaths = async () => {
